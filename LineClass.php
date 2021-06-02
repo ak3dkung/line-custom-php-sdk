@@ -1,11 +1,6 @@
 <?php
 session_start();
 
-require_once($_SERVER['DOCUMENT_ROOT'] . "/vendor/autoload.php");
-require_once($_SERVER['DOCUMENT_ROOT'] . "/component/config.php");
-require_once($_SERVER['DOCUMENT_ROOT'] . "/component/link_db.php");
-
-
 class LINE
 {
     public function getAccessToken($client_id, $client_secret)
