@@ -1,7 +1,7 @@
 <?php
 
 //เรียกใช้งาน LineClass.php
-require_once($_SEVER['DOCUMENT_ROOT']."/LineClass.php");
+require_once($_SERVER['DOCUMENT_ROOT']."/LineClass.php");
 
 //สร้าง Instance LINE Class ด้วยคำสั่ง
 $LINE=new LINE();
