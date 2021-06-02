@@ -51,7 +51,7 @@ $quickReply2 = array(
     )
 );
 $quickReplyData=array($quickReply1,$quickReply2);
-$response = $LINE->replyMessages($replyToken,"กรุณาส่งรูปมาให้ระบบ",$quickReplyData);
+$response = $LINE->replyMessageswithQuickReply($replyToken,"กรุณาส่งรูปมาให้ระบบ",$quickReplyData);
 
 
 //4. จัดการ Rich Menu
